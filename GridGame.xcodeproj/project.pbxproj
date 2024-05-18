@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184F5E93FD17BADB725A154B /* Pods_GridGame_GridGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BF7623AAFA43977B2BF738 /* Pods_GridGame_GridGameUITests.framework */; };
+		89871DCDCF9D042F8F5068F3 /* Pods_GridGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E968BFFB7E8DF099234A7A6F /* Pods_GridGameTests.framework */; };
+		C22520C291B42C2B139C6903 /* Pods_GridGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CDA93A31160F4F56AFE94A /* Pods_GridGame.framework */; };
+		C6987F292BF8663D007CBC27 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6987F282BF8663D007CBC27 /* GameModel.swift */; };
+		C6B0DF6C2BF6FF1C00C1987E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0DF6B2BF6FF1C00C1987E /* SecondViewController.swift */; };
+		C6B0DF702BF7051000C1987E /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0DF6E2BF7051000C1987E /* GridCollectionViewCell.swift */; };
+		C6B0DF712BF7051000C1987E /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B0DF6F2BF7051000C1987E /* GridCollectionViewCell.xib */; };
+		C6B0DF732BF766CB00C1987E /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0DF722BF766CB00C1987E /* LeaderBoardViewController.swift */; };
+		C6B0DF792BF782D600C1987E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0DF782BF782D600C1987E /* DataManager.swift */; };
+		C6B0DF7B2BF7872500C1987E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0DF7A2BF7872500C1987E /* DataModel.swift */; };
+		C6D575692BF6566B00673AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D575682BF6566B00673AA9 /* AppDelegate.swift */; };
+		C6D5756B2BF6566B00673AA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5756A2BF6566B00673AA9 /* SceneDelegate.swift */; };
+		C6D5756D2BF6566B00673AA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5756C2BF6566B00673AA9 /* ViewController.swift */; };
+		C6D575702BF6566B00673AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D5756E2BF6566B00673AA9 /* Main.storyboard */; };
+		C6D575722BF6566D00673AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D575712BF6566D00673AA9 /* Assets.xcassets */; };
+		C6D575752BF6566D00673AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D575732BF6566D00673AA9 /* LaunchScreen.storyboard */; };
+		C6D575802BF6566D00673AA9 /* GridGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5757F2BF6566D00673AA9 /* GridGameTests.swift */; };
+		C6D5758A2BF6566D00673AA9 /* GridGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D575892BF6566D00673AA9 /* GridGameUITests.swift */; };
+		C6D5758C2BF6566D00673AA9 /* GridGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5758B2BF6566D00673AA9 /* GridGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6D5757C2BF6566D00673AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D5755D2BF6566B00673AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D575642BF6566B00673AA9;
+			remoteInfo = GridGame;
+		};
+		C6D575862BF6566D00673AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D5755D2BF6566B00673AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D575642BF6566B00673AA9;
+			remoteInfo = GridGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2247899F75835867C8F0B728 /* Pods-GridGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGameTests.debug.xcconfig"; path = "Target Support Files/Pods-GridGameTests/Pods-GridGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		547063638ECD40428915A908 /* Pods-GridGame-GridGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGame-GridGameUITests.release.xcconfig"; path = "Target Support Files/Pods-GridGame-GridGameUITests/Pods-GridGame-GridGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82BF7623AAFA43977B2BF738 /* Pods_GridGame_GridGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridGame_GridGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72C38045AA9798858542B24 /* Pods-GridGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGame.release.xcconfig"; path = "Target Support Files/Pods-GridGame/Pods-GridGame.release.xcconfig"; sourceTree = "<group>"; };
+		C6987F282BF8663D007CBC27 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		C6B0DF6B2BF6FF1C00C1987E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C6B0DF6E2BF7051000C1987E /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6B0DF6F2BF7051000C1987E /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
+		C6B0DF722BF766CB00C1987E /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		C6B0DF782BF782D600C1987E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C6B0DF7A2BF7872500C1987E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C6D575652BF6566B00673AA9 /* GridGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D575682BF6566B00673AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6D5756A2BF6566B00673AA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6D5756C2BF6566B00673AA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6D5756F2BF6566B00673AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6D575712BF6566D00673AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6D575742BF6566D00673AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6D575762BF6566D00673AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D5757B2BF6566D00673AA9 /* GridGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D5757F2BF6566D00673AA9 /* GridGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridGameTests.swift; sourceTree = "<group>"; };
+		C6D575852BF6566D00673AA9 /* GridGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D575892BF6566D00673AA9 /* GridGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridGameUITests.swift; sourceTree = "<group>"; };
+		C6D5758B2BF6566D00673AA9 /* GridGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9EC649DA2E13CC95E4ACD05 /* Pods-GridGame-GridGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGame-GridGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-GridGame-GridGameUITests/Pods-GridGame-GridGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CECFA21DCCCF8BF52D4E2212 /* Pods-GridGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGameTests.release.xcconfig"; path = "Target Support Files/Pods-GridGameTests/Pods-GridGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0CDA93A31160F4F56AFE94A /* Pods_GridGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E968BFFB7E8DF099234A7A6F /* Pods_GridGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5960906A3929733BAB8D7BD /* Pods-GridGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGame.debug.xcconfig"; path = "Target Support Files/Pods-GridGame/Pods-GridGame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6D575622BF6566B00673AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22520C291B42C2B139C6903 /* Pods_GridGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D575782BF6566D00673AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89871DCDCF9D042F8F5068F3 /* Pods_GridGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D575822BF6566D00673AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F5E93FD17BADB725A154B /* Pods_GridGame_GridGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFB009D49C3790813DC4AE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5960906A3929733BAB8D7BD /* Pods-GridGame.debug.xcconfig */,
+				B72C38045AA9798858542B24 /* Pods-GridGame.release.xcconfig */,
+				C9EC649DA2E13CC95E4ACD05 /* Pods-GridGame-GridGameUITests.debug.xcconfig */,
+				547063638ECD40428915A908 /* Pods-GridGame-GridGameUITests.release.xcconfig */,
+				2247899F75835867C8F0B728 /* Pods-GridGameTests.debug.xcconfig */,
+				CECFA21DCCCF8BF52D4E2212 /* Pods-GridGameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6B0DF6D2BF704C800C1987E /* GridCells */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0DF6E2BF7051000C1987E /* GridCollectionViewCell.swift */,
+				C6B0DF6F2BF7051000C1987E /* GridCollectionViewCell.xib */,
+			);
+			path = GridCells;
+			sourceTree = "<group>";
+		};
+		C6B0DF742BF77FFB00C1987E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0DF7A2BF7872500C1987E /* DataModel.swift */,
+				C6987F282BF8663D007CBC27 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6B0DF752BF7801600C1987E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0DF782BF782D600C1987E /* DataManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C6D5755C2BF6566B00673AA9 = {
+			isa = PBXGroup;
+			children = (
+				C6D575672BF6566B00673AA9 /* GridGame */,
+				C6D5757E2BF6566D00673AA9 /* GridGameTests */,
+				C6D575882BF6566D00673AA9 /* GridGameUITests */,
+				C6D575662BF6566B00673AA9 /* Products */,
+				ACFB009D49C3790813DC4AE6 /* Pods */,
+				F014A0B1B94792FCF15038B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6D575662BF6566B00673AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6D575652BF6566B00673AA9 /* GridGame.app */,
+				C6D5757B2BF6566D00673AA9 /* GridGameTests.xctest */,
+				C6D575852BF6566D00673AA9 /* GridGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6D575672BF6566B00673AA9 /* GridGame */ = {
+			isa = PBXGroup;
+			children = (
+				C6D575682BF6566B00673AA9 /* AppDelegate.swift */,
+				C6D5756A2BF6566B00673AA9 /* SceneDelegate.swift */,
+				C6D5756C2BF6566B00673AA9 /* ViewController.swift */,
+				C6B0DF6B2BF6FF1C00C1987E /* SecondViewController.swift */,
+				C6B0DF722BF766CB00C1987E /* LeaderBoardViewController.swift */,
+				C6D5756E2BF6566B00673AA9 /* Main.storyboard */,
+				C6B0DF6D2BF704C800C1987E /* GridCells */,
+				C6B0DF742BF77FFB00C1987E /* Model */,
+				C6B0DF752BF7801600C1987E /* Helper */,
+				C6D575712BF6566D00673AA9 /* Assets.xcassets */,
+				C6D575732BF6566D00673AA9 /* LaunchScreen.storyboard */,
+				C6D575762BF6566D00673AA9 /* Info.plist */,
+			);
+			path = GridGame;
+			sourceTree = "<group>";
+		};
+		C6D5757E2BF6566D00673AA9 /* GridGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6D5757F2BF6566D00673AA9 /* GridGameTests.swift */,
+			);
+			path = GridGameTests;
+			sourceTree = "<group>";
+		};
+		C6D575882BF6566D00673AA9 /* GridGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6D575892BF6566D00673AA9 /* GridGameUITests.swift */,
+				C6D5758B2BF6566D00673AA9 /* GridGameUITestsLaunchTests.swift */,
+			);
+			path = GridGameUITests;
+			sourceTree = "<group>";
+		};
+		F014A0B1B94792FCF15038B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0CDA93A31160F4F56AFE94A /* Pods_GridGame.framework */,
+				82BF7623AAFA43977B2BF738 /* Pods_GridGame_GridGameUITests.framework */,
+				E968BFFB7E8DF099234A7A6F /* Pods_GridGameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6D575642BF6566B00673AA9 /* GridGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D5758F2BF6566D00673AA9 /* Build configuration list for PBXNativeTarget "GridGame" */;
+			buildPhases = (
+				B863A756B848685F3E7DEB8F /* [CP] Check Pods Manifest.lock */,
+				C6D575612BF6566B00673AA9 /* Sources */,
+				C6D575622BF6566B00673AA9 /* Frameworks */,
+				C6D575632BF6566B00673AA9 /* Resources */,
+				0039B67EE2A9A6D70E205659 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridGame;
+			productName = GridGame;
+			productReference = C6D575652BF6566B00673AA9 /* GridGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6D5757A2BF6566D00673AA9 /* GridGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D575922BF6566D00673AA9 /* Build configuration list for PBXNativeTarget "GridGameTests" */;
+			buildPhases = (
+				C3C04A9B3230677D85A99B8E /* [CP] Check Pods Manifest.lock */,
+				C6D575772BF6566D00673AA9 /* Sources */,
+				C6D575782BF6566D00673AA9 /* Frameworks */,
+				C6D575792BF6566D00673AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D5757D2BF6566D00673AA9 /* PBXTargetDependency */,
+			);
+			name = GridGameTests;
+			productName = GridGameTests;
+			productReference = C6D5757B2BF6566D00673AA9 /* GridGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6D575842BF6566D00673AA9 /* GridGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D575952BF6566D00673AA9 /* Build configuration list for PBXNativeTarget "GridGameUITests" */;
+			buildPhases = (
+				085E5EFA1F81F684DC7BBC9B /* [CP] Check Pods Manifest.lock */,
+				C6D575812BF6566D00673AA9 /* Sources */,
+				C6D575822BF6566D00673AA9 /* Frameworks */,
+				C6D575832BF6566D00673AA9 /* Resources */,
+				46012BC9BF948FBB9DD759AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D575872BF6566D00673AA9 /* PBXTargetDependency */,
+			);
+			name = GridGameUITests;
+			productName = GridGameUITests;
+			productReference = C6D575852BF6566D00673AA9 /* GridGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6D5755D2BF6566B00673AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C6D575642BF6566B00673AA9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C6D5757A2BF6566D00673AA9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C6D575642BF6566B00673AA9;
+					};
+					C6D575842BF6566D00673AA9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C6D575642BF6566B00673AA9;
+					};
+				};
+			};
+			buildConfigurationList = C6D575602BF6566B00673AA9 /* Build configuration list for PBXProject "GridGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6D5755C2BF6566B00673AA9;
+			productRefGroup = C6D575662BF6566B00673AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6D575642BF6566B00673AA9 /* GridGame */,
+				C6D5757A2BF6566D00673AA9 /* GridGameTests */,
+				C6D575842BF6566D00673AA9 /* GridGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6D575632BF6566B00673AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B0DF712BF7051000C1987E /* GridCollectionViewCell.xib in Resources */,
+				C6D575752BF6566D00673AA9 /* LaunchScreen.storyboard in Resources */,
+				C6D575722BF6566D00673AA9 /* Assets.xcassets in Resources */,
+				C6D575702BF6566B00673AA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D575792BF6566D00673AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D575832BF6566D00673AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0039B67EE2A9A6D70E205659 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridGame/Pods-GridGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridGame/Pods-GridGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GridGame/Pods-GridGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		085E5EFA1F81F684DC7BBC9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridGame-GridGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46012BC9BF948FBB9DD759AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridGame-GridGameUITests/Pods-GridGame-GridGameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridGame-GridGameUITests/Pods-GridGame-GridGameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GridGame-GridGameUITests/Pods-GridGame-GridGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B863A756B848685F3E7DEB8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C04A9B3230677D85A99B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6D575612BF6566B00673AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B0DF792BF782D600C1987E /* DataManager.swift in Sources */,
+				C6B0DF6C2BF6FF1C00C1987E /* SecondViewController.swift in Sources */,
+				C6D5756D2BF6566B00673AA9 /* ViewController.swift in Sources */,
+				C6D575692BF6566B00673AA9 /* AppDelegate.swift in Sources */,
+				C6D5756B2BF6566B00673AA9 /* SceneDelegate.swift in Sources */,
+				C6987F292BF8663D007CBC27 /* GameModel.swift in Sources */,
+				C6B0DF7B2BF7872500C1987E /* DataModel.swift in Sources */,
+				C6B0DF732BF766CB00C1987E /* LeaderBoardViewController.swift in Sources */,
+				C6B0DF702BF7051000C1987E /* GridCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D575772BF6566D00673AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D575802BF6566D00673AA9 /* GridGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D575812BF6566D00673AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D5758C2BF6566D00673AA9 /* GridGameUITestsLaunchTests.swift in Sources */,
+				C6D5758A2BF6566D00673AA9 /* GridGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6D5757D2BF6566D00673AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D575642BF6566B00673AA9 /* GridGame */;
+			targetProxy = C6D5757C2BF6566D00673AA9 /* PBXContainerItemProxy */;
+		};
+		C6D575872BF6566D00673AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D575642BF6566B00673AA9 /* GridGame */;
+			targetProxy = C6D575862BF6566D00673AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6D5756E2BF6566B00673AA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6D5756F2BF6566B00673AA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6D575732BF6566D00673AA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6D575742BF6566D00673AA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6D5758D2BF6566D00673AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6D5758E2BF6566D00673AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6D575902BF6566D00673AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5960906A3929733BAB8D7BD /* Pods-GridGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R49KMB3W6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GridGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuru.GridGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6D575912BF6566D00673AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72C38045AA9798858542B24 /* Pods-GridGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R49KMB3W6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GridGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuru.GridGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6D575932BF6566D00673AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2247899F75835867C8F0B728 /* Pods-GridGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R49KMB3W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuru.GridGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GridGame";
+			};
+			name = Debug;
+		};
+		C6D575942BF6566D00673AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECFA21DCCCF8BF52D4E2212 /* Pods-GridGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R49KMB3W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuru.GridGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GridGame";
+			};
+			name = Release;
+		};
+		C6D575962BF6566D00673AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EC649DA2E13CC95E4ACD05 /* Pods-GridGame-GridGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R49KMB3W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuru.GridGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GridGame;
+			};
+			name = Debug;
+		};
+		C6D575972BF6566D00673AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547063638ECD40428915A908 /* Pods-GridGame-GridGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R49KMB3W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuru.GridGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GridGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6D575602BF6566B00673AA9 /* Build configuration list for PBXProject "GridGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D5758D2BF6566D00673AA9 /* Debug */,
+				C6D5758E2BF6566D00673AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D5758F2BF6566D00673AA9 /* Build configuration list for PBXNativeTarget "GridGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D575902BF6566D00673AA9 /* Debug */,
+				C6D575912BF6566D00673AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D575922BF6566D00673AA9 /* Build configuration list for PBXNativeTarget "GridGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D575932BF6566D00673AA9 /* Debug */,
+				C6D575942BF6566D00673AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D575952BF6566D00673AA9 /* Build configuration list for PBXNativeTarget "GridGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D575962BF6566D00673AA9 /* Debug */,
+				C6D575972BF6566D00673AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6D5755D2BF6566B00673AA9 /* Project object */;
+}
